@@ -2,4 +2,8 @@
 /_build
 z_read_me.txt
 /.ipynb_checkpoints
+/.ipynb_checkpoints/*
+figures/~$ormir_coding_guidelines_figures.pptx
 figures/~$ormir_code_guidelines_figures.pptx
+z_not_included.md
+
