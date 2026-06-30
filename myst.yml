@@ -1,20 +1,26 @@
 version: 1
 project:
-  title: ORMIR Coding Guidelines
+  title: ORMIR Code Guidelines
   toc:
     - file: index.md
-    - file: basic.md
+    - file: getting_started.md
       children:
       - file: project.md
       - file: python.md
-      - file: documentation.md
+      - file: docs.md
+        children:
+        - file: docs_code.md
+        - file: docs_sites.md 
+        - file: docs_contributing.md
       - file: jupyter.md
-    - file: intermediate.md
+    - file: going_further.md
       children: 
       - file: package_license.md
       - file: github.md
+        children: 
+        - file: gh_contributing.md
       - file: publishing.md
-    - file: advanced.md
+    - file: deep_dive.md
       children:
       - file: code_review.md
 site:
